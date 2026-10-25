@@ -6,30 +6,30 @@ Cantidad de columnas: 6
 
 NOMBRES Y TIPOS DE COLUMNAS
 ---------------------------
-primera_variable: int64
-SepalLengthCm: float64
-SepalWidthCm: float64
-PetalLengthCm: float64
-PetalWidthCm: float64
-Species: str
+id: int64
+sepallengthcm: float64
+sepalwidthcm: float64
+petallengthcm: float64
+petalwidthcm: float64
+species: str
 
 VALORES NULOS POR COLUMNA
 ------------------------
-primera_variable    0
-SepalLengthCm       0
-SepalWidthCm        0
-PetalLengthCm       0
-PetalWidthCm        0
-Species             0
+id               0
+sepallengthcm    0
+sepalwidthcm     0
+petallengthcm    0
+petalwidthcm     0
+species          0
 
 ESTADISTICAS DESCRIPTIVAS
 -------------------------
-       primera_variable  SepalLengthCm  SepalWidthCm  PetalLengthCm  PetalWidthCm
-count        150.000000     150.000000    150.000000     150.000000    150.000000
-mean          75.500000       5.843333      3.054000       3.758667      1.198667
-std           43.445368       0.828066      0.433594       1.764420      0.763161
-min            1.000000       4.300000      2.000000       1.000000      0.100000
-25%           38.250000       5.100000      2.800000       1.600000      0.300000
-50%           75.500000       5.800000      3.000000       4.350000      1.300000
-75%          112.750000       6.400000      3.300000       5.100000      1.800000
-max          150.000000       7.900000      4.400000       6.900000      2.500000
+               id  sepallengthcm  sepalwidthcm  petallengthcm  petalwidthcm
+count  150.000000     150.000000    150.000000     150.000000    150.000000
+mean    75.500000       5.843333      3.054000       3.758667      1.198667
+std     43.445368       0.828066      0.433594       1.764420      0.763161
+min      1.000000       4.300000      2.000000       1.000000      0.100000
+25%     38.250000       5.100000      2.800000       1.600000      0.300000
+50%     75.500000       5.800000      3.000000       4.350000      1.300000
+75%    112.750000       6.400000      3.300000       5.100000      1.800000
+max    150.000000       7.900000      4.400000       6.900000      2.500000
